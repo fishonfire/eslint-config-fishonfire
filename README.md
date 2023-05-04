@@ -3,7 +3,19 @@
 
 Official fishonfire eslint config
 
+## Installation
 
+Add this package to your packages
+
+Yarn
+```bash
+  yarn add https://github.com/fishonfire/eslint-config-fishonfire --dev
+```
+
+Npm
+```bash
+  npm install https://github.com/fishonfire/eslint-config-fishonfire --save-dev
+```
 
 ## Deployment
 
