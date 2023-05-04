@@ -1,0 +1,24 @@
+{
+  "name": "eslint-config-fishonfire",
+  "version": "1.0.0",
+  "description": "Official fishonfire eslint config",
+  "main": "index.js",
+  "author": "Menno Jongejan",
+  "license": "MIT",
+  "devDependencies": {
+    "@react-native-community/eslint-config": "^3.2.0",
+    "@typescript-eslint/eslint-plugin": "^5.59.2",
+    "@typescript-eslint/parser": "^5.59.2",
+    "eslint": "^8.39.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-sonarjs": "^0.19.0"
+  },
+  "peerDependencies": {
+    "@react-native-community/eslint-config": "^3.2.0",
+    "@typescript-eslint/eslint-plugin": "^5.59.2",
+    "@typescript-eslint/parser": "^5.59.2",
+    "eslint": "^8.39.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-sonarjs": "^0.19.0"
+  }
+}
