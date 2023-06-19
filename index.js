@@ -24,6 +24,10 @@ module.exports = {
     "babel.config.js",
     "metro.config.js"
   ],
+  globals: {
+    "__DEV__": "readonly",
+    "require": "readonly",
+  },
   rules: {
     "indent": ["error", 2],
     "linebreak-style": ["error", "unix"],
