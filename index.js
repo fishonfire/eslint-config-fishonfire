@@ -63,6 +63,7 @@ module.exports = {
       "error",
       "after",
       { "overrides": { "?": "before", ":": "before" } }
-    ]
+    ],
+    "require-yield": "off"
   }
 };
