@@ -18,7 +18,8 @@ module.exports = {
   plugins: [
     "react",
     "@typescript-eslint",
-    "sonarjs"
+    "sonarjs",
+    'react-hooks'
   ],
   ignorePatterns: [
     "babel.config.js",
@@ -64,6 +65,7 @@ module.exports = {
       "after",
       { "overrides": { "?": "before", ":": "before" } }
     ],
-    "require-yield": "off"
+    "require-yield": "off",
+    'react-hooks/rules-of-hooks': 'error'
   }
 };
