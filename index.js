@@ -52,6 +52,8 @@ module.exports = {
     "react/jsx-first-prop-new-line": ["error", "multiline-multiprop"],
     "react/jsx-closing-bracket-location": ["error", "line-aligned"],
     "keyword-spacing": ["error", { "before": true, "after": true }],
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off",
     "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 1, "maxBOF": 0 }],
     "padding-line-between-statements": [
       "error",
